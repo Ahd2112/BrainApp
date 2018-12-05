@@ -20,6 +20,7 @@
 		7F5A485B216D36CD008BB5A1 /* DecisionViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A485A216D36CD008BB5A1 /* DecisionViewControllerThree.swift */; };
 		7F9EC24B215192F500326C92 /* DecisionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EC24A215192F500326C92 /* DecisionPageViewController.swift */; };
 		7F9EC24D215198CF00326C92 /* DecisionViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EC24C215198CF00326C92 /* DecisionViewControllerTwo.swift */; };
+		7FAD881421B87DE200F1EC25 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */; };
 		7FE95D772147076800B9E1CC /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE95D762147076800B9E1CC /* Decision.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		7F5A485A216D36CD008BB5A1 /* DecisionViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionViewControllerThree.swift; sourceTree = "<group>"; };
 		7F9EC24A215192F500326C92 /* DecisionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionPageViewController.swift; sourceTree = "<group>"; };
 		7F9EC24C215198CF00326C92 /* DecisionViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionViewControllerTwo.swift; sourceTree = "<group>"; };
+		7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		7FE95D762147076800B9E1CC /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				7F32353E2146FBB000A81690 /* Main.storyboard */,
+				7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */,
 				7F32353A2146FBAF00A81690 /* AppDelegate.swift */,
 				7F32353C2146FBAF00A81690 /* ViewController.swift */,
 				7F32356A2147009E00A81690 /* DecisionViewController.swift */,
@@ -284,6 +287,7 @@
 				7F5A485B216D36CD008BB5A1 /* DecisionViewControllerThree.swift in Sources */,
 				7F29DB5D2152BCF60044F3C2 /* DecisionTable.swift in Sources */,
 				7F32353D2146FBAF00A81690 /* ViewController.swift in Sources */,
+				7FAD881421B87DE200F1EC25 /* GlobalVariables.swift in Sources */,
 				7F32356B2147009E00A81690 /* DecisionViewController.swift in Sources */,
 				7F9EC24D215198CF00326C92 /* DecisionViewControllerTwo.swift in Sources */,
 				7F32353B2146FBAF00A81690 /* AppDelegate.swift in Sources */,
