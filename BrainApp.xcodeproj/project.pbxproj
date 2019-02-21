@@ -21,6 +21,8 @@
 		7F9EC24B215192F500326C92 /* DecisionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EC24A215192F500326C92 /* DecisionPageViewController.swift */; };
 		7F9EC24D215198CF00326C92 /* DecisionViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EC24C215198CF00326C92 /* DecisionViewControllerTwo.swift */; };
 		7FAD881421B87DE200F1EC25 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */; };
+		7FD3DB0C21EE7E41001E4B4D /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3DB0B21EE7E41001E4B4D /* iPadStoryboard.storyboard */; };
+		7FD3DB0E21EE8150001E4B4D /* IPadLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3DB0D21EE8150001E4B4D /* IPadLaunchScreen.storyboard */; };
 		7FE95D772147076800B9E1CC /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE95D762147076800B9E1CC /* Decision.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		7F9EC24A215192F500326C92 /* DecisionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionPageViewController.swift; sourceTree = "<group>"; };
 		7F9EC24C215198CF00326C92 /* DecisionViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionViewControllerTwo.swift; sourceTree = "<group>"; };
 		7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		7FD3DB0B21EE7E41001E4B4D /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
+		7FD3DB0D21EE8150001E4B4D /* IPadLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IPadLaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FE95D762147076800B9E1CC /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,7 @@
 		7F3235392146FBAF00A81690 /* BrainApp */ = {
 			isa = PBXGroup;
 			children = (
+				7FD3DB0B21EE7E41001E4B4D /* iPadStoryboard.storyboard */,
 				7F32353E2146FBB000A81690 /* Main.storyboard */,
 				7FAD881321B87DE200F1EC25 /* GlobalVariables.swift */,
 				7F32353A2146FBAF00A81690 /* AppDelegate.swift */,
@@ -123,6 +128,7 @@
 				7FE95D762147076800B9E1CC /* Decision.swift */,
 				7F29DB5C2152BCF60044F3C2 /* DecisionTable.swift */,
 				7F9EC24A215192F500326C92 /* DecisionPageViewController.swift */,
+				7FD3DB0D21EE8150001E4B4D /* IPadLaunchScreen.storyboard */,
 				7F29DB5E2152C26F0044F3C2 /* DecisionTableViewCell.swift */,
 				7F3235412146FBB000A81690 /* Assets.xcassets */,
 				7F3235432146FBB000A81690 /* LaunchScreen.storyboard */,
@@ -217,7 +223,7 @@
 				TargetAttributes = {
 					7F3235362146FBAF00A81690 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7F32354A2146FBB000A81690 = {
 						CreatedOnToolsVersion = 9.2;
@@ -256,9 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD3DB0E21EE8150001E4B4D /* IPadLaunchScreen.storyboard in Resources */,
 				7F3235452146FBB000A81690 /* LaunchScreen.storyboard in Resources */,
 				7F3235422146FBB000A81690 /* Assets.xcassets in Resources */,
 				7F3235402146FBB000A81690 /* Main.storyboard in Resources */,
+				7FD3DB0C21EE7E41001E4B4D /* iPadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +384,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Centre For Collaboration, Motivation And Innovation Society (2U7W595KQW)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -398,9 +407,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "CCMI BRAIN Decision Making App IOS Distribution";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -433,7 +444,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Centre For Collaboration, Motivation And Innovation Society (2U7W595KQW)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -448,8 +460,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "CCMI BRAIN Decision Making App IOS Distribution";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -458,11 +472,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9G4L7NLF4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2U7W595KQW;
 				INFOPLIST_FILE = BrainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23123.BrainApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CCMI.BRAINapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,11 +487,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R9G4L7NLF4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2U7W595KQW;
 				INFOPLIST_FILE = BrainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23123.BrainApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CCMI.BRAINapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
